@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 40px;
+}
+#startButton{
+    background-color: green;
+    border: 2px solid black;
+    color: white;
+}
+#startButton:hover{
+    background-color: rgb(50, 244, 50);
+}
+#stopButton{
+    color: black;
+}
+video{
+    width: 50%;
+}
